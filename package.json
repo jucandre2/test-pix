@@ -1,0 +1,9 @@
+{
+  "name": "test-pix-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix pix-test run start",
+    "start": "npm --prefix pix-test run start",
+    "test": "npm --prefix pix-test run test"
+  }
+}
