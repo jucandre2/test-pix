@@ -1,9 +1,20 @@
 {
-  "name": "test-pix-workspace",
-  "private": true,
+  "name": "pix-payment-service",
+  "version": "1.0.0",
+  "description": "Simple PIX-like payment API using Express and in-memory storage",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "npm --prefix pix-test run start",
-    "start": "npm --prefix pix-test run start",
-    "test": "npm --prefix pix-test run test"
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "pix",
+    "payments",
+    "express"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
